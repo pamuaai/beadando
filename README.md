@@ -85,3 +85,24 @@ Használatieset-diagram:
     - Adatbázisterv
     
         ![Adatbázisterv](https://github.com/pamuaai/beadando/blob/master/DatabaseModel.JPG?raw=true)
+        
+##Implementáció
+1. Fejlesztői környezet bemutatása
+    Cloud 9 webes IDE, ahova Github accounttal való belépés után új workspacet hozhatunk létre (new workspace). Itt egy fájlt futtathatunk például a webes terminálablakból, a node fájlnév paranccsal. 
+    
+2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
+    - config: A Waterline konfigurációja (Waterline adatbázis absztrakciós réteg, gyűjteményeket, modelleket, adaptereket tartalmaz)
+    - controllers: A vezérlő. Folyamatirányítás, kérés fogadása, feldolgozása 
+    - models: Modellek definiálása, adatok és feldolgozási logika
+    - viewmodels: Nézetmodell
+    - views: A kimenetért felelős rész, vagyis az egyes oldalak szerkezetét, kinézetét adja meg
+
+##Felhasználói dokumentáció
+1. Környezet
+    - A weboldal futtatásához ajánlott telepített Internet Explorer, Mozilla Firefox, Google Chrome böngésző, ha van rá mód a legfrisebb verzióban.
+    - Fontos, hogy NoScript vagy hasonló plugint mely blokkolná az oldalon megjelenő scripteket, kapcsoljuk ki vagy az oldalt adjuk hozzá a kivételek listájához. Enélkül nem használható az oldal(mivel nagyrésze javascriptből épül fel).
+2. Minimális gépigény
+    - CPU: Intel Core 2 Duo 2,16 GHz , AMD Athlon2 340 X2 
+    - Memória: 2 GB DDR3
+    - HDD: 1 GB
+

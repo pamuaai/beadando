@@ -1,0 +1,141 @@
+{
+  "data": {
+    "error": [
+      {
+        "status": "new",
+        "deadline": "",
+        "location": "asdasd",
+        "description": "ffff",
+        "date": "2015-11-08T12:08:34.013Z",
+        "createdAt": "2015-11-08T12:08:34.014Z",
+        "updatedAt": "2015-11-08T12:08:53.890Z",
+        "id": 2
+      }
+    ],
+    "user": [
+      {
+        "surname": "Vezetéknév",
+        "forename": "Keresztnév",
+        "neptun": "NEPTUN",
+        "password": "$2a$10$RjzEa7Yk/ZXGyPFxl3eGU.arlTstxnb7QkPWvpFvMaYf/8GOWOXc.",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-05T13:43:48.914Z",
+        "updatedAt": "2015-11-05T13:43:48.914Z",
+        "id": 1
+      },
+      {
+        "surname": "abc",
+        "forename": "a",
+        "neptun": "a",
+        "password": "$2a$10$m0eK4/77ifA48wgrOMflBeHsxIuVosTnZnS0H6yR55QKXJYBUQnom",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-08T12:06:21.079Z",
+        "updatedAt": "2015-11-08T12:06:21.079Z",
+        "id": 2
+      },
+      {
+        "surname": "adfaf",
+        "forename": "afadfa",
+        "neptun": "b",
+        "password": "$2a$10$5k96J0U1svDuBz6EUH.Q4OVFxhX4zBoYywPIeh/WE46aarNR4CL32",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-08T12:06:36.298Z",
+        "updatedAt": "2015-11-08T12:06:36.298Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "error": {
+      "date": {
+        "type": "datetime"
+      },
+      "deadline": {
+        "type": "date"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "location": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "error": {
+      "id": 2
+    },
+    "user": {
+      "id": 3
+    }
+  }
+}

@@ -13,5 +13,12 @@ Ezenfelül a regisztrált felhasználók számára még:
 - Létező feladatok törlését
 - A feladatok listájának megtekintését
 ######Nem funkcionális elvárások:
+- Ergonomikus felület
+- Biztonsági funkciók (jelszavak, hozzáférés)
 
-Használatieset-modell
+######Használatieset-modell
+Szerepkörök:
+- Vendég: láthatja a kezdőoldalt, a leírást és regisztrálhat
+- Felhasználó: Új feladatokat tud hozzáadni, törölni és módosítani a létezőket.
+
+Használatieset-diagram:

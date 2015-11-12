@@ -1,7 +1,7 @@
 #AlkFejl első beadandó doksi
 
 #####1. Követelményanalízis
-
+######Funkcionális elvárások:
 A program lehetővé teszi a vendégfelhasználónak:
 - A főoldal megtekintését
 - A leírás megtekintését
@@ -12,4 +12,6 @@ Ezenfelül a regisztrált felhasználók számára még:
 - Létező feladatok módosítását
 - Létező feladatok törlését
 - A feladatok listájának megtekintését
+######Nem funkcionális elvárások:
 
+Használatieset-modell

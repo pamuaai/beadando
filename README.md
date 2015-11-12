@@ -71,3 +71,8 @@ Használatieset-diagram:
         POST /errors/:id: megváltoztatott adatok küldése
         
         GET /delete/:id: feladat törlése
+
+2. Felhasználóifelület-modell
+    - Oldalvázlatok
+    ![Feladatok listázása](https://raw.githubusercontent.com/pamuaai/beadando/master/listDesign.jpg)
+    ![Új feladat felvétele](https://github.com/pamuaai/beadando/blob/master/newDesign.jpg?raw=true)

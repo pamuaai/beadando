@@ -25,6 +25,7 @@ Használatieset-diagram:
 ![alt text](https://raw.githubusercontent.com/pamuaai/beadando/master/usecase.JPG "Use cases")
 
 Új feladat létrehozásának folyamata:
+
 ![alt text](https://raw.githubusercontent.com/pamuaai/beadando/master/newUml.JPG "UML diagram for creating new entry")
 
 - Oldaltérkép

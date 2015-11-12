@@ -50,7 +50,7 @@ Használatieset-diagram:
     
         GET /: főoldal
 		
-		    GET /about: leírás
+	GET /about: leírás
         
         GET /login: bejelentkezés
         

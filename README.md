@@ -76,3 +76,12 @@ Használatieset-diagram:
     - Oldalvázlatok
     ![Feladatok listázása](https://raw.githubusercontent.com/pamuaai/beadando/master/listDesign.jpg)
     ![Új feladat felvétele](https://github.com/pamuaai/beadando/blob/master/newDesign.jpg?raw=true)
+
+3. Osztálymodell
+    - Adatmodell
+    
+        ![Adatmodell](https://github.com/pamuaai/beadando/blob/master/DataModel.JPG?raw=true)
+
+    - Adatbázisterv
+    
+        ![Adatbázisterv](https://github.com/pamuaai/beadando/blob/master/DatabaseModel.JPG?raw=true)

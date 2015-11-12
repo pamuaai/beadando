@@ -22,3 +22,4 @@ Szerepkörök:
 - Felhasználó: Új feladatokat tud hozzáadni, törölni és módosítani a létezőket.
 
 Használatieset-diagram:
+![alt text](https://raw.githubusercontent.com/pamuaai/beadando/master/usecase.JPG "Use cases")

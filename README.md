@@ -12,6 +12,7 @@ Ezenfelül a regisztrált felhasználók számára még:
 - Létező feladatok módosítását
 - Létező feladatok törlését
 - A feladatok listájának megtekintését
+
 ######Nem funkcionális elvárások:
 - Ergonomikus felület
 - Biztonsági funkciók (jelszavak, hozzáférés)

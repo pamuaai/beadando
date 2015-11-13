@@ -49,18 +49,19 @@ Használatieset-diagram:
 
 - Végpontok
 
-	GET /: főoldal
-	GET /about: leírás
-	GET /login: bejelentkezés
-	POST /login: bejelentkezési adatok küldése
-	GET /login/signup: regisztáció
-	POST /login/signup: regisztrációs adatok küldése
-	GET /errors/list: feladat listázó oldal
-	GET /errors/new: új feladat felvitele
-	POST /errors/new: új feladat felvitele, adatok küldése
-	GET /errors/:id : feladat adatait megváltoztató oldal
-	POST /errors/:id : megváltoztatott adatok küldése
-	GET /delete/:id : feladat törlése
+
+		GET /: főoldal
+		GET /about: leírás
+		GET /login: bejelentkezés
+		POST /login: bejelentkezési adatok küldése
+		GET /login/signup: regisztáció
+		POST /login/signup: regisztrációs adatok küldése
+		GET /errors/list: feladat listázó oldal
+		GET /errors/new: új feladat felvitele
+		POST /errors/new: új feladat felvitele, adatok küldése
+		GET /errors/:id : feladat adatait megváltoztató oldal
+		POST /errors/:id : megváltoztatott adatok küldése
+		GET /delete/:id : feladat törlése
 
 2. Felhasználóifelület-modell
     - Oldalvázlatok
